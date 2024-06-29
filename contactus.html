@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <div class="form-container">
+      <div class="box">
+        <div class="form-header">
+            <h2>Book Demo Session</h2>
+            <h3>Only 4 Spots Left!</h3>
+        </div>
+    </div>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Enter your name</label>
+                <input type="text" id="name" class="form-input" placeholder="Rahul Sharma" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id</label>
+                <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Enter your mobile number</label>
+                <div class="phone-input">
+                    <span>+91</span>
+                    <input type="tel" id="phone" class="form-input" placeholder="Enter your mobile number" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="baby-stage">Select Baby Stage</label>
+                <select name="baby-stage" id="baby-stage" class="form-input" required>
+                    <option value="infant">Infant</option>
+                    <option value="toddler">Toddler</option>
+                    <option value="child">Child</option>
+                </select>
+            </div>
+            <button type="submit" class="apply-now">Apply Now</button>
+            <div class="uptodds-terms-container">
+                <span>UpTodd’s </span><span class="terms-conditions">Terms & Conditions</span><span> and </span><span class="terms-conditions">Privacy Policy</span><span> for complete data security</span>
+            </div>
+            <div class="image-container">
+                <img src="public/image-29@2x.png" alt="Avast" class="image-icon">
+                <img src="public/image-31@2x.png" alt="HTTPS" class="image-icon">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
